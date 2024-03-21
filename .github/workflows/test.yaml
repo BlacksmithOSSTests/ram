@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   consume_ram_job:
-    runs-on: blacksmith-4vcpu-ubuntu-2204
+    runs-on: blacksmith-8vcpu-ubuntu-2204
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
