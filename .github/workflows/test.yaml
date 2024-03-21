@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   consume_ram_job:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
