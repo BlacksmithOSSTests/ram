@@ -6,7 +6,7 @@ def consume_ram():
     try:
         # Allocate an array of float64 numbers, each consuming 8 bytes.
         # 8GB = 8 * 1024^3 bytes, so the number of elements is (8 * 1024^3) / 8.
-        arr = np.zeros((2 * 1024**3), dtype=np.float64)
+        arr = np.zeros((4 * 1024**3), dtype=np.float64)
         print("Successfully allocated approximately 8GB of RAM.")
     except MemoryError:
         print("Failed to allocate 16GB of RAM.")
